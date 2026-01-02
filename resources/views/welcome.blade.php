@@ -61,26 +61,35 @@
                 <h2 class="text-2xl font-bold tracking-tighter uppercase">MITRA BISNIS KAMI</h2>
             </div>
 
+            @php
+                $clientImages = collect(File::files(public_path('images')))
+                    ->filter(function($file) {
+                        return in_array(strtolower($file->getExtension()), ['png', 'jpg', 'jpeg', 'webp']);
+                    })
+                    ->map(function($file) {
+                        return '/images/' . $file->getFilename();
+                    })
+                    ->values();
+            @endphp
+
             <!-- Row 1: Left to Right -->
             <div class="relative flex overflow-x-hidden mb-8">
-                <div class="py-4 animate-scroll-reverse flex whitespace-nowrap items-center">
-                    @for ($i = 0; $i < 4; $i++)
-                        <div class="flex items-center gap-12 px-6">
-                            <img src="/images/tour-travel.png" alt="Client Logo" class="h-40 w-auto grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition duration-500">
-                            <img src="/images/ayo-dent.png" alt="Client Logo" class="h-40 w-auto grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition duration-500">
-                        </div>
+                <div class="py-4 animate-scroll-reverse flex whitespace-nowrap items-center gap-12 px-2">
+                    @for ($i = 0; $i < 2; $i++)
+                        @foreach ($clientImages as $img)
+                            <img src="{{ $img }}" alt="Client Logo" class="h-40 w-auto grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition duration-500">
+                        @endforeach
                     @endfor
                 </div>
             </div>
 
             <!-- Row 2: Right to Left -->
             <div class="relative flex overflow-x-hidden">
-                <div class="py-4 animate-scroll flex whitespace-nowrap items-center">
-                    @for ($i = 0; $i < 4; $i++)
-                        <div class="flex items-center gap-12 px-6">
-                           <img src="/images/tour-travel.png" alt="Client Logo" class="h-40 w-auto grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition duration-500">
-                            <img src="/images/ayo-dent.png" alt="Client Logo" class="h-40 w-auto grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition duration-500">
-                        </div>
+                <div class="py-4 animate-scroll flex whitespace-nowrap items-center gap-12 px-2">
+                    @for ($i = 0; $i < 2; $i++)
+                        @foreach ($clientImages as $img)
+                            <img src="{{ $img }}" alt="Client Logo" class="h-40 w-auto grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition duration-500">
+                        @endforeach
                     @endfor
                 </div>
             </div>

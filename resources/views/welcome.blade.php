@@ -17,27 +17,21 @@
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
         <link rel="manifest" href="/site.webmanifest">
+
+        {{-- thumbnail: https://digitansi.com/thumbnail.png --}}
+        <meta property="og:title" content="Digitansi | Digital Marketing & Akuntansi">
+        <meta property="og:description" content="Digitansi.com hadir untuk menggabungkan kekuatan pemasaran digital dengan sistem keuangan yang tertata rapi. Kami membantu pelaku usaha untuk tumbuh dengan strategi berbasis data — dari awareness sampai profit.">
+        <meta property="og:image" content="https://digitansi.com/thumbnail.webp">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://digitansi.com">
+        <meta name="twitter:card" content="summary_large_image">
+
+
+
     </head>
     <body class="bg-white text-black selection:bg-black selection:text-white uppercase font-medium">
         <!-- Navigation -->
-        <nav class="fixed w-full top-0 z-50 bg-white/90 backdrop-blur-xl border-b border-zinc-100">
-            <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
-                <img src="/logo.png" alt="Digitansi Logo" class="h-16 w-16">
-
-                {{-- <a href="/" class="text-xl font-bold tracking-tighter">DIGITANSI.</a> --}}
-                <div class="hidden md:flex gap-10 text-[11px] tracking-widest">
-                    <a href="#about" class="hover:text-zinc-500 transition">Visi & Misi</a>
-                    <a href="#layanan" class="hover:text-zinc-500 transition">Layanan</a>
-                    <a href="#solusi" class="hover:text-zinc-500 transition">Kenapa Kami</a>
-                    <a href="#paket" class="hover:text-zinc-500 transition">Paket Harga</a>
-                </div>
-                <div>
-                    <a href="https://wa.me/6282291860809" class="bg-black text-white px-6 py-2.5 text-[10px] tracking-[0.2em] hover:bg-zinc-800 transition inline-block">
-                        KONSULTASI GRATIS
-                    </a>
-                </div>
-            </div>
-        </nav>
+        @include('layouts.navbar')
 
         <!-- Hero -->
         <section class="min-h-screen flex items-center pt-20">
@@ -267,44 +261,6 @@
         </section>
 
         <!-- Footer -->
-        <footer class="py-24 border-t border-zinc-100">
-            <div class="max-w-7xl mx-auto px-6">
-                <div class="flex flex-col md:flex-row justify-between items-start gap-16">
-                    <div class="max-w-xs">
-                        <a href="/" class="text-xl font-bold tracking-tighter block mb-8">DIGITANSI.</a>
-                        <p class="text-[11px] tracking-widest leading-loose text-zinc-400 uppercase">Mitra strategis yang menggabungkan kekuatan pemasaran digital dengan sistem keuangan yang tertata rapi.</p>
-                    </div>
-                    <div class="flex-1 grid grid-cols-2 md:grid-cols-3 gap-16 uppercase tracking-widest text-[10px] font-bold">
-                        <div>
-                            <span class="text-zinc-300 block mb-8">KONTAK</span>
-                            <div class="flex flex-col gap-6">
-                                <span>📧 hello@digitansi.com</span>
-                                <span>📞 +62 822 9186 0809</span>
-                                <span>📍 JAKARTA, INDONESIA</span>
-                            </div>
-                        </div>
-                        <div>
-                            <span class="text-zinc-300 block mb-8">SOCIAL</span>
-                            <div class="flex flex-col gap-6">
-                                <a href="#" class="hover:text-zinc-400 transition">INSTAGRAM</a>
-                                <a href="#" class="hover:text-zinc-400 transition">LINKEDIN</a>
-                                <a href="#" class="hover:text-zinc-400 transition">FACEBOOK</a>
-                            </div>
-                        </div>
-                        <div class="hidden md:block">
-                            <span class="text-zinc-300 block mb-8">LAINNYA</span>
-                            <div class="flex flex-col gap-6">
-                                <a href="#" class="hover:text-zinc-400 transition">PRIVACY</a>
-                                <a href="#" class="hover:text-zinc-400 transition">TERMS</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="mt-32 pt-10 border-t border-zinc-50 flex justify-between items-center text-[9px] font-bold text-zinc-300 tracking-[0.4em] uppercase">
-                    <span>&copy; 2026 DIGITANSI.COM</span>
-                    <span>MADE FOR GROWTH</span>
-                </div>
-            </div>
-        </footer>
+        @include('layouts.footer')
     </body>
 </html>

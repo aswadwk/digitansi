@@ -1,7 +1,6 @@
 <nav class="fixed w-full top-0 z-50 bg-white/90 backdrop-blur-xl border-b border-zinc-100">
     <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
         <img src="/logo.png" alt="Digitansi Logo" class="h-16 w-16">
-        {{-- <a href="/" class="text-xl font-bold tracking-tighter">DIGITANSI.</a> --}}
         <div class="hidden md:flex gap-10 text-[11px] tracking-widest">
             <a href="#about" class="hover:text-zinc-500 transition">Visi & Misi</a>
             <a href="#layanan" class="hover:text-zinc-500 transition">Layanan</a>

@@ -2,7 +2,7 @@
     <div class="max-w-7xl mx-auto px-6">
         <div class="flex flex-col md:flex-row justify-between items-start gap-16">
             <div class="max-w-xs">
-                <a href="/" class="text-xl font-bold tracking-tighter block mb-8">DIGITANSI.</a>
+                <img src="/logo.png" alt="Digitansi Logo" class="h-16 w-16">
                 <p class="text-[11px] tracking-widest leading-loose text-zinc-400 uppercase">Mitra strategis yang menggabungkan kekuatan pemasaran digital dengan sistem keuangan yang tertata rapi.</p>
             </div>
             <div class="flex-1 grid grid-cols-2 md:grid-cols-3 gap-16 uppercase tracking-widest text-[10px] font-bold">

@@ -55,26 +55,69 @@
         <!-- Clients Marquee -->
         <section class="py-24 bg-white border-t border-zinc-100 overflow-hidden">
             <div class="max-w-7xl mx-auto px-6 mb-16">
-                <span class="text-[10px] tracking-[0.3em] text-zinc-400 mb-4 block font-bold">DIPERCAYAKAN OLEH</span>
+                <span class="text-[10px] tracking-[0.3em] text-zinc-400 mb-4 block font-bold uppercase">DI PERCAYAKAN OLEH</span>
                 <h2 class="text-2xl font-bold tracking-tighter uppercase">MITRA BISNIS KAMI</h2>
             </div>
-            <div class="relative flex overflow-x-hidden">
-                <div class="py-12 animate-scroll flex whitespace-nowrap">
-                    <!-- Placeholder Logos (Repeat for smooth loop) -->
-                    @for ($i = 0; $i < 2; $i++)
-                        <div class="flex items-center gap-24 px-12">
-                            <div class="w-[200px] h-[200px] opacity-80 hover:opacity-100 transition cursor-pointer flex items-center justify-center border border-zinc-100 text-[10px] tracking-widest font-black">
-                                <img src="/images/tour-travel.png" alt="Client Logo 01" class="max-w-full max-h-full object-contain">
-                            </div>
-                            <div class="w-[200px] h-[200px] opacity-80 hover:opacity-100 transition cursor-pointer flex items-center justify-center border border-zinc-100 text-[10px] tracking-widest font-black">
-                                <img src="/images/ayo-dent.png" alt="Client Logo 01" class="max-w-full max-h-full object-contain">
-                            </div>
-                            <div class="w-[200px] h-[80px] grayscale opacity-30 hover:opacity-100 transition cursor-pointer flex items-center justify-center border border-zinc-100 text-[10px] tracking-widest font-black">CLIENT_LOGO_02</div>
-                            <div class="w-[200px] h-[80px] grayscale opacity-30 hover:opacity-100 transition cursor-pointer flex items-center justify-center border border-zinc-100 text-[10px] tracking-widest font-black">CLIENT_LOGO_03</div>
-                            <div class="w-[200px] h-[80px] grayscale opacity-30 hover:opacity-100 transition cursor-pointer flex items-center justify-center border border-zinc-100 text-[10px] tracking-widest font-black">CLIENT_LOGO_04</div>
-                            <div class="w-[200px] h-[80px] grayscale opacity-30 hover:opacity-100 transition cursor-pointer flex items-center justify-center border border-zinc-100 text-[10px] tracking-widest font-black">CLIENT_LOGO_05</div>
+
+            <!-- Row 1: Left to Right -->
+            <div class="relative flex overflow-x-hidden mb-8">
+                <div class="py-4 animate-scroll-reverse flex whitespace-nowrap items-center">
+                    @for ($i = 0; $i < 4; $i++)
+                        <div class="flex items-center gap-12 px-6">
+                            <img src="/images/tour-travel.png" alt="Client Logo" class="h-40 w-auto grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition duration-500">
+                            <img src="/images/ayo-dent.png" alt="Client Logo" class="h-40 w-auto grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition duration-500">
                         </div>
                     @endfor
+                </div>
+            </div>
+
+            <!-- Row 2: Right to Left -->
+            <div class="relative flex overflow-x-hidden">
+                <div class="py-4 animate-scroll flex whitespace-nowrap items-center">
+                    @for ($i = 0; $i < 4; $i++)
+                        <div class="flex items-center gap-12 px-6">
+                           <img src="/images/tour-travel.png" alt="Client Logo" class="h-40 w-auto grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition duration-500">
+                            <img src="/images/ayo-dent.png" alt="Client Logo" class="h-40 w-auto grayscale opacity-40 hover:grayscale-0 hover:opacity-100 transition duration-500">
+                        </div>
+                    @endfor
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section id="layanan" class="section-padding bg-white">
+            <div class="max-w-7xl mx-auto px-6">
+                <div class="max-w-3xl mb-24">
+                    <span class="text-[10px] tracking-[0.4em] text-zinc-400 mb-6 block font-bold uppercase">LAYANAN KAMI</span>
+                    <h2 class="text-5xl md:text-7xl font-bold tracking-tighter leading-[0.9] mb-8">KOMBINASI STRATEGI & PRESISI.</h2>
+                    <p class="text-zinc-500 text-sm tracking-widest normal-case leading-loose">Kombinasi Digital Marketing dengan Akuntansi "Pembukuan Laporan Keuangan", berkomitmen bukan hanya sekadar agency tapi juga sebagai partner jangka panjang untuk pertumbuhan bisnis Anda.</p>
+                </div>
+
+                <div class="grid md:grid-cols-2 gap-px bg-zinc-100 border border-zinc-100">
+                    <div class="bg-white p-12 md:p-20 hover:bg-zinc-50 transition group">
+                        <span class="text-[10px] tracking-widest text-zinc-400 mb-12 block font-bold">01 / MARKETING</span>
+                        <h3 class="text-3xl font-bold mb-8 tracking-tight">FACEBOOK & IG ADS</h3>
+                        <p class="text-zinc-500 text-xs leading-loose normal-case mb-12">Digitansi bantu bisnis Anda berkembang lewat Facebook & Instagram Ads berbasis data dan menjangkau audiance yang lebih banyak dan potensial, sehingga penjualan dan omset Anda berkembang pesat.</p>
+                        <div class="h-px w-12 bg-black group-hover:w-24 transition-all"></div>
+                    </div>
+                    <div class="bg-white p-12 md:p-20 hover:bg-zinc-50 transition group">
+                        <span class="text-[10px] tracking-widest text-zinc-400 mb-12 block font-bold">02 / FINANCE</span>
+                        <h3 class="text-3xl font-bold mb-8 tracking-tight">ACCOUNTING SERVICE</h3>
+                        <p class="text-zinc-500 text-xs leading-loose normal-case mb-12">Kami bukan sekadar "pencatat angka", tapi partner strategis yang memahami bahwa kesuksesan bisnis Anda lebih dari sekadar laporan keuangan. Dengan analisis mendalam kami hadirkan solusi akuntansi yang mudah dipahami.</p>
+                        <div class="h-px w-12 bg-black group-hover:w-24 transition-all"></div>
+                    </div>
+                    <div class="bg-white p-12 md:p-20 hover:bg-zinc-50 transition group">
+                        <span class="text-[10px] tracking-widest text-zinc-400 mb-12 block font-bold">03 / CONTROL</span>
+                        <h3 class="text-3xl font-bold mb-8 tracking-tight">ACCOUNTING CONTROLLER</h3>
+                        <p class="text-zinc-500 text-xs leading-loose normal-case mb-12">Tim Accounting Controller kami siap menjadi arsitek perubahan keuangan Anda. Kami menjadikannya senjata untuk mencapai pertumbuhan berkelanjutan, mengoptimalkan efisiensi dan tingkatkan daya saing bisnis Anda.</p>
+                        <div class="h-px w-12 bg-black group-hover:w-24 transition-all"></div>
+                    </div>
+                    <div class="bg-white p-12 md:p-20 hover:bg-zinc-50 transition group">
+                        <span class="text-[10px] tracking-widest text-zinc-400 mb-12 block font-bold">04 / TAX</span>
+                        <h3 class="text-3xl font-bold mb-8 tracking-tight">TAX MODELING</h3>
+                        <p class="text-zinc-500 text-xs leading-loose normal-case mb-12">Tim Tax Modelling kami siap membantu Anda menghitungkan pajak perusahaan hingga pelaporan ke bagian perpajakan. Kami bantu meminimalkan risiko dan menciptakan struktur keuangan yang optimal.</p>
+                        <div class="h-px w-12 bg-black group-hover:w-24 transition-all"></div>
+                    </div>
                 </div>
             </div>
         </section>

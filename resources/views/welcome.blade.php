@@ -17,7 +17,9 @@
         <!-- Navigation -->
         <nav class="fixed w-full top-0 z-50 bg-white/90 backdrop-blur-xl border-b border-zinc-100">
             <div class="max-w-7xl mx-auto px-6 h-20 flex justify-between items-center">
-                <a href="/" class="text-xl font-bold tracking-tighter">DIGITANSI.</a>
+                <img src="/logo.png" alt="Digitansi Logo" class="h-16 w-16">
+
+                {{-- <a href="/" class="text-xl font-bold tracking-tighter">DIGITANSI.</a> --}}
                 <div class="hidden md:flex gap-10 text-[11px] tracking-widest">
                     <a href="#about" class="hover:text-zinc-500 transition">Visi & Misi</a>
                     <a href="#layanan" class="hover:text-zinc-500 transition">Layanan</a>
@@ -25,7 +27,7 @@
                     <a href="#paket" class="hover:text-zinc-500 transition">Paket Harga</a>
                 </div>
                 <div>
-                    <a href="http://wa.me/6282291860809" class="bg-black text-white px-6 py-2.5 text-[10px] tracking-[0.2em] hover:bg-zinc-800 transition inline-block">
+                    <a href="https://wa.me/6282291860809" class="bg-black text-white px-6 py-2.5 text-[10px] tracking-[0.2em] hover:bg-zinc-800 transition inline-block">
                         KONSULTASI GRATIS
                     </a>
                 </div>
@@ -192,7 +194,7 @@
                             <li>— FREE AD COPY</li>
                             <li>— LANDING PAGE</li>
                         </ul>
-                        <a href="http://wa.me/6282291860809" class="block text-center border border-black py-4 text-[10px] font-bold tracking-widest hover:bg-black hover:text-white transition">PILIH PAKET</a>
+                        <a href="https://wa.me/6282291860809" class="block text-center border border-black py-4 text-[10px] font-bold tracking-widest hover:bg-black hover:text-white transition">PILIH PAKET</a>
                     </div>
 
                     <!-- Paket Starter -->
@@ -209,7 +211,7 @@
                             <li>— FREE DESAIN VISUAL</li>
                             <li>— LANDING PAGE</li>
                         </ul>
-                        <a href="http://wa.me/6282291860809" class="block text-center border border-black py-4 text-[10px] font-bold tracking-widest hover:bg-black hover:text-white transition">PILIH PAKET</a>
+                        <a href="https://wa.me/6282291860809" class="block text-center border border-black py-4 text-[10px] font-bold tracking-widest hover:bg-black hover:text-white transition">PILIH PAKET</a>
                     </div>
 
                     <!-- Paket Growth -->
@@ -227,7 +229,7 @@
                             <li>— SPT MASA & TAHUNAN</li>
                             <li>— PRIORITAS SUPORT</li>
                         </ul>
-                        <a href="http://wa.me/6282291860809" class="block text-center bg-white text-black py-4 text-[10px] font-bold tracking-widest hover:bg-zinc-200 transition">PILIH PAKET</a>
+                        <a href="https://wa.me/6282291860809" class="block text-center bg-white text-black py-4 text-[10px] font-bold tracking-widest hover:bg-zinc-200 transition">PILIH PAKET</a>
                     </div>
 
                     <!-- Paket Elite -->
@@ -244,7 +246,7 @@
                             <li>— FULL TAX COMPLIANCE</li>
                             <li>— DEDICATED TEAM</li>
                         </ul>
-                        <a href="http://wa.me/6282291860809" class="block text-center border border-black py-4 text-[10px] font-bold tracking-widest hover:bg-black hover:text-white transition">PILIH PAKET</a>
+                        <a href="https://wa.me/6282291860809" class="block text-center border border-black py-4 text-[10px] font-bold tracking-widest hover:bg-black hover:text-white transition">PILIH PAKET</a>
                     </div>
                 </div>
             </div>

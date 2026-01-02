@@ -63,7 +63,7 @@
             @php
                 $clientImages = collect(File::files(public_path('images')))
                     ->filter(function($file) {
-                        return in_array(strtolower($file->getExtension()), ['png', 'jpg', 'jpeg', 'webp']);
+                        return in_array(strtolower($file->getExtension()), ['webp']);
                     })
                     ->map(function($file) {
                         return '/images/' . $file->getFilename();

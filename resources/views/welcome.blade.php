@@ -202,7 +202,7 @@
                             <li>- Optimasi Landing Page/WhatsApp Funnel</li>
                             <li>- Free 3 desain konten Iklan</li>
                         </ul>
-                        <a href="https://wa.me/6282291860809" class="block text-center border border-black py-4 text-[10px] font-bold tracking-widest hover:bg-black hover:text-white transition">PILIH PAKET</a>
+                        <a href="https://wa.me/6282291860809?text=Halo%20kak%2C%20saya%20mau%20konsultasi%20terkait%20paket%20Digital%20Marketing" class="block text-center border border-black py-4 text-[10px] font-bold tracking-widest hover:bg-black hover:text-white transition">PILIH PAKET</a>
                     </div>
 
                     <!-- Paket Starter -->
@@ -220,7 +220,7 @@
                             <li>— SPT Tahunan Badan</li>
                             <li>— biaya tambahan jika memiliki lebih dari 3 cabang.</li>
                         </ul>
-                        <a href="https://wa.me/6282291860809" class="block text-center border border-black py-4 text-[10px] font-bold tracking-widest hover:bg-black hover:text-white transition">PILIH PAKET</a>
+                        <a href="https://wa.me/6282291860809?text=Halo%20kak%2C%20saya%20mau%20konsultasi%20terkait%20Paket%20Akuntansi%20%26%20Pajak" class="block text-center border border-black py-4 text-[10px] font-bold tracking-widest hover:bg-black hover:text-white transition">PILIH PAKET</a>
                     </div>
 
                     <!-- Paket Growth -->
@@ -241,7 +241,7 @@
                             <li>— Profit</li>
                             <li>— Pajak</li>
                         </ul>
-                        <a href="https://wa.me/6282291860809" class="block text-center bg-white text-black py-4 text-[10px] font-bold tracking-widest hover:bg-zinc-200 transition">PILIH PAKET</a>
+                        <a href="https://wa.me/6282291860809?text=Halo%20kak%2C%20saya%20mau%20konsultasi%20terkait%20paket%20Digital%20Marketing%20%2B%20Akuntansi%20%2B%20Pajak" class="block text-center bg-white text-black py-4 text-[10px] font-bold tracking-widest hover:bg-zinc-200 transition">PILIH PAKET</a>
                     </div>
 
                     <!-- Paket Elite -->
@@ -258,7 +258,7 @@
                             <li>— Rekonsiliasi hutang & piutang</li>
                             <li>— Pendampingan pemeriksaan pajak</li>
                         </ul>
-                        <a href="https://wa.me/6282291860809" class="block text-center border border-black py-4 text-[10px] font-bold tracking-widest hover:bg-black hover:text-white transition">PILIH PAKET</a>
+                        <a href="https://wa.me/6282291860809?text=Halo%20kak%2C%20saya%20mau%20konsultasi%20terkait%20paket%20Omset%20diatas%209M" class="block text-center border border-black py-4 text-[10px] font-bold tracking-widest hover:bg-black hover:text-white transition">PILIH PAKET</a>
                     </div>
                 </div>
             </div>

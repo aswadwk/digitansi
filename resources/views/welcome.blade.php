@@ -194,7 +194,7 @@
                             <span class="text-[10px] tracking-widest text-zinc-400 block mb-2 font-bold">UMKM PEMULA</span>
                             <h3 class="text-xl font-bold">Paket digital marketing</h3>
                         </div>
-                        <div class="text-2xl font-bold mb-4 tracking-tighter">1.4JT <span class="text-[10px] tracking-widest text-zinc-400">/ MONTH</span></div>
+                        <div class="text-2xl font-bold mb-4 tracking-tighter">1.2JT <span class="text-[10px] tracking-widest text-zinc-400">/ MONTH</span></div>
                         <ul class="text-[9px] tracking-widest space-y-4 mb-12 flex-1 border-t border-zinc-50 pt-4 list-none p-0 uppercase">
                             <li>- Manajemen Facebook dan IG Ads</li>
                             <li>- CopyWriting Iklan & Konten</li>
@@ -209,15 +209,16 @@
                     <div class="bg-white p-10 border border-zinc-100 flex flex-col h-full">
                         <div class="mb-10">
                             <span class="text-[10px] tracking-widest text-zinc-400 block mb-2 font-bold">UMKM STANDAR</span>
-                            <h3 class="text-xl font-bold">STARTER</h3>
+                            <h3 class="text-xl font-bold">Paket Akuntansi & Pajak</h3>
                         </div>
-                        <div class="text-2xl font-bold mb-4 tracking-tighter">1.4JT <span class="text-[10px] tracking-widest text-zinc-400">/ MONTH</span></div>
+                        <div class="text-2xl font-bold mb-4 tracking-tighter">3.4JT <span class="text-[10px] tracking-widest text-zinc-400">/ MONTH</span></div>
                         <ul class="text-[9px] tracking-widest space-y-4 mb-12 flex-1 border-t border-zinc-50 pt-4 list-none p-0 uppercase">
-                            <li>— LAPORAN LABA RUGI</li>
-                            <li>— LAPORAN PAJAK</li>
-                            <li>— FB & IG ADS</li>
-                            <li>— FREE DESAIN VISUAL</li>
-                            <li>— LANDING PAGE</li>
+                            <li>— Pencatatan Transaksi (Kas, Bank, Penjualan, Biaya.</li>
+                            <li>— Laporan Keuangan Bulanan (Include: Neraca, Laba Rugi, Arus Kas)</li>
+                            <li>— Rekonsiliasi Bank</li>
+                            <li>— Laporan Pajak Bulanan (Include: PPN, PPh 21, 23, 4(2))</li>
+                            <li>— SPT Tahunan Badan</li>
+                            <li>— biaya tambahan jika memiliki lebih dari 3 cabang.</li>
                         </ul>
                         <a href="https://wa.me/6282291860809" class="block text-center border border-black py-4 text-[10px] font-bold tracking-widest hover:bg-black hover:text-white transition">PILIH PAKET</a>
                     </div>
@@ -227,15 +228,18 @@
                         <div class="absolute top-4 right-[-35px] bg-white text-black py-1 px-10 text-[8px] font-black rotate-45 tracking-widest">POPULAR</div>
                         <div class="mb-10">
                             <span class="text-[10px] tracking-widest text-zinc-600 block mb-2 font-bold uppercase">BISNIS BERKEMBANG</span>
-                            <h3 class="text-xl font-bold">GROWTH</h3>
+                            <h3 class="text-xl font-bold">Digital Marketing + Akuntansi + Pajak</h3>
                         </div>
-                        <div class="text-2xl font-bold mb-4 tracking-tighter text-white">3.5JT <span class="text-[10px] tracking-widest text-zinc-600">/ MONTH</span></div>
+                        <div class="text-2xl font-bold mb-4 tracking-tighter text-white">4.5JT <span class="text-[10px] tracking-widest text-zinc-600">/ MONTH</span></div>
                         <ul class="text-[9px] tracking-widest space-y-4 mb-12 flex-1 border-t border-zinc-800 pt-4 list-none p-0 uppercase">
-                            <li>— SEMUA FITUR STARTER</li>
-                            <li>— TAX PLANNING</li>
-                            <li>— KARTU PEMBAYARAN KHUSUS</li>
-                            <li>— SPT MASA & TAHUNAN</li>
-                            <li>— PRIORITAS SUPORT</li>
+                            <li>— Semua layanan Paket Digital Marketing</li>
+                            <li>— Semua layanan Paket Akuntansi & Pajak (Paket A)</li>
+                            <li>— Sinkronisasi data penjualan ke laporan keuangan</li>
+                            <li>— Laporan:</li>
+                            <li>— Performa iklan</li>
+                            <li>— Omzet</li>
+                            <li>— Profit</li>
+                            <li>— Pajak</li>
                         </ul>
                         <a href="https://wa.me/6282291860809" class="block text-center bg-white text-black py-4 text-[10px] font-bold tracking-widest hover:bg-zinc-200 transition">PILIH PAKET</a>
                     </div>
@@ -244,15 +248,15 @@
                     <div class="bg-white p-10 border border-zinc-100 flex flex-col h-full">
                         <div class="mb-10">
                             <span class="text-[10px] tracking-widest text-zinc-400 block mb-2 font-bold uppercase">BISNIS SERIUS</span>
-                            <h3 class="text-xl font-bold">ELITE</h3>
+                            <h3 class="text-xl font-bold">Omset diatas 9M</h3>
                         </div>
-                        <div class="text-2xl font-bold mb-4 tracking-tighter">4.9JT <span class="text-[10px] tracking-widest text-zinc-400">/ MONTH</span></div>
+                        <div class="text-2xl font-bold mb-4 tracking-tighter">Harga Negosiasi</div>
                         <ul class="text-[9px] tracking-widest space-y-4 mb-12 flex-1 border-t border-zinc-50 pt-4 list-none p-0 uppercase">
-                            <li>— SOLUSI LENGKAP</li>
-                            <li>— SISTEM OTOMATIS</li>
-                            <li>— ACCOUNTING CONTROLLER</li>
-                            <li>— FULL TAX COMPLIANCE</li>
-                            <li>— DEDICATED TEAM</li>
+                            <li>— Penyusunan laporan keuangan dan asistensi audit KAP</li>
+                            <li>— Termasuk semua di paket B,</li>
+                            <li>— Akuntansi berbasis accrual & PSAK</li>
+                            <li>— Rekonsiliasi hutang & piutang</li>
+                            <li>— Pendampingan pemeriksaan pajak</li>
                         </ul>
                         <a href="https://wa.me/6282291860809" class="block text-center border border-black py-4 text-[10px] font-bold tracking-widest hover:bg-black hover:text-white transition">PILIH PAKET</a>
                     </div>

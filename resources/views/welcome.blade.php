@@ -192,15 +192,15 @@
                     <div class="bg-white p-10 border border-zinc-100 flex flex-col h-full">
                         <div class="mb-10">
                             <span class="text-[10px] tracking-widest text-zinc-400 block mb-2 font-bold">UMKM PEMULA</span>
-                            <h3 class="text-xl font-bold">BEGINNER</h3>
+                            <h3 class="text-xl font-bold">Paket digital marketing</h3>
                         </div>
-                        <div class="text-2xl font-bold mb-8 tracking-tighter">1.4JT <span class="text-[10px] tracking-widest text-zinc-400">/ MONTH</span></div>
-                        <ul class="text-[9px] tracking-widest space-y-4 mb-12 flex-1 border-t border-zinc-50 pt-8 list-none p-0 uppercase">
-                            <li>— FB & IG ADS</li>
-                            <li>— LAPORAN PEKANAN</li>
-                            <li>— OPTIMASI BUDGET</li>
-                            <li>— FREE AD COPY</li>
-                            <li>— LANDING PAGE</li>
+                        <div class="text-2xl font-bold mb-4 tracking-tighter">1.4JT <span class="text-[10px] tracking-widest text-zinc-400">/ MONTH</span></div>
+                        <ul class="text-[9px] tracking-widest space-y-4 mb-12 flex-1 border-t border-zinc-50 pt-4 list-none p-0 uppercase">
+                            <li>- Manajemen Facebook dan IG Ads</li>
+                            <li>- CopyWriting Iklan & Konten</li>
+                            <li>- Laporan performa iklan & Konten Bulanan</li>
+                            <li>- Optimasi Landing Page/WhatsApp Funnel</li>
+                            <li>- Free 3 desain konten Iklan</li>
                         </ul>
                         <a href="https://wa.me/6282291860809" class="block text-center border border-black py-4 text-[10px] font-bold tracking-widest hover:bg-black hover:text-white transition">PILIH PAKET</a>
                     </div>
@@ -211,8 +211,8 @@
                             <span class="text-[10px] tracking-widest text-zinc-400 block mb-2 font-bold">UMKM STANDAR</span>
                             <h3 class="text-xl font-bold">STARTER</h3>
                         </div>
-                        <div class="text-2xl font-bold mb-8 tracking-tighter">1.4JT <span class="text-[10px] tracking-widest text-zinc-400">/ MONTH</span></div>
-                        <ul class="text-[9px] tracking-widest space-y-4 mb-12 flex-1 border-t border-zinc-50 pt-8 list-none p-0 uppercase">
+                        <div class="text-2xl font-bold mb-4 tracking-tighter">1.4JT <span class="text-[10px] tracking-widest text-zinc-400">/ MONTH</span></div>
+                        <ul class="text-[9px] tracking-widest space-y-4 mb-12 flex-1 border-t border-zinc-50 pt-4 list-none p-0 uppercase">
                             <li>— LAPORAN LABA RUGI</li>
                             <li>— LAPORAN PAJAK</li>
                             <li>— FB & IG ADS</li>
@@ -229,8 +229,8 @@
                             <span class="text-[10px] tracking-widest text-zinc-600 block mb-2 font-bold uppercase">BISNIS BERKEMBANG</span>
                             <h3 class="text-xl font-bold">GROWTH</h3>
                         </div>
-                        <div class="text-2xl font-bold mb-8 tracking-tighter text-white">3.5JT <span class="text-[10px] tracking-widest text-zinc-600">/ MONTH</span></div>
-                        <ul class="text-[9px] tracking-widest space-y-4 mb-12 flex-1 border-t border-zinc-800 pt-8 list-none p-0 uppercase">
+                        <div class="text-2xl font-bold mb-4 tracking-tighter text-white">3.5JT <span class="text-[10px] tracking-widest text-zinc-600">/ MONTH</span></div>
+                        <ul class="text-[9px] tracking-widest space-y-4 mb-12 flex-1 border-t border-zinc-800 pt-4 list-none p-0 uppercase">
                             <li>— SEMUA FITUR STARTER</li>
                             <li>— TAX PLANNING</li>
                             <li>— KARTU PEMBAYARAN KHUSUS</li>
@@ -246,8 +246,8 @@
                             <span class="text-[10px] tracking-widest text-zinc-400 block mb-2 font-bold uppercase">BISNIS SERIUS</span>
                             <h3 class="text-xl font-bold">ELITE</h3>
                         </div>
-                        <div class="text-2xl font-bold mb-8 tracking-tighter">4.9JT <span class="text-[10px] tracking-widest text-zinc-400">/ MONTH</span></div>
-                        <ul class="text-[9px] tracking-widest space-y-4 mb-12 flex-1 border-t border-zinc-50 pt-8 list-none p-0 uppercase">
+                        <div class="text-2xl font-bold mb-4 tracking-tighter">4.9JT <span class="text-[10px] tracking-widest text-zinc-400">/ MONTH</span></div>
+                        <ul class="text-[9px] tracking-widest space-y-4 mb-12 flex-1 border-t border-zinc-50 pt-4 list-none p-0 uppercase">
                             <li>— SOLUSI LENGKAP</li>
                             <li>— SISTEM OTOMATIS</li>
                             <li>— ACCOUNTING CONTROLLER</li>
